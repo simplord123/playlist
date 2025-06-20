@@ -18,7 +18,7 @@ body{
     max-width: 532px;
 }
 html{
-    background-image: radial-gradient(gray,black);
+    background-color: black;
 }
 .navbar{
     background-image: linear-gradient(to top right, rgb(31, 31, 31), rgba(158, 40, 40));
@@ -78,13 +78,20 @@ footer{
 }
 main{
     text-align: center;
-    margin: 2rem auto 1rem;
+    margin: 3rem auto 1rem;
     font-size: small;
     flex-grow: 1;
     line-height: 1.5rem;
     text-align: center;
     text-shadow: 4px 4px 5px black;  
     color: whitesmoke;
+}
+h1{
+    text-align: center;
+    color: papayawhip;
+    text-shadow: 4px 4px 5px black;
+    margin: 0 1rem 2rem;
+
 }
 h2,h4{
     color: papayawhip;
@@ -97,4 +104,27 @@ audio{
     display: block;
     box-shadow: 5px 5px 5px black;
     border-radius: 2rem;
+}
+table{
+    width: 98%;
+    margin: auto;
+    text-align: center;
+    padding: 1rem 2rem 1rem;
+    font-size: small;
+    font-weight: bold;
+    border: 1px solid #333;
+    border-radius: 0.5rem;
+}
+.section{
+    margin-top: 2rem;
+    width: inherit;
+    max-width: inherit;
+    z-index: 5000;
+}
+.a,
+.a:visited{
+    color: white;
+}
+.a:hover{
+    color: gold;
 }
